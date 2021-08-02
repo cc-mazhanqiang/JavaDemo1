@@ -14,6 +14,9 @@ public class InetAddressTest {
             InetAddress inetAddress = InetAddress.getByName("www.baidu.com");
             System.out.println(inetAddress);
 
+            InetAddress localHost = InetAddress.getLocalHost();
+            System.out.println(localHost);
+
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
