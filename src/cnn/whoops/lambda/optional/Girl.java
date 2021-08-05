@@ -1,0 +1,32 @@
+package cnn.whoops.lambda.optional;
+
+/**
+ * @author: whoops
+ * @date: 2021/8/5 - 23:00
+ * @description:
+ */
+public class Girl {
+    private String name;
+
+    public Girl() {
+    }
+
+    public Girl(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Girl{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+}

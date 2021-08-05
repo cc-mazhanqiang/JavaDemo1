@@ -11,6 +11,10 @@ import java.util.Comparator;
  *
  * Lambda表达式的使用举例
  *
+ * (o1,o2) -> Integer.compare(o1,o2);
+ * 左边：lambda形参列表（其实就是接口中抽象方法的形参列表）
+ * 右边：lambda体（其实就是重写的抽象方法的方法体）
+ *
  */
 public class LambdaTest {
     @Test
